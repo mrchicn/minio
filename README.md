@@ -137,3 +137,25 @@ server{
  proxy_pass 的值为 http://http_minio ,也就是上面设置的 upstream **http_minio**  值
 
 其中主要是 upstream 及 proxy_pass 的配置。如此，即可使用 http://192.168.234.20 进行访问。
+
+### 八、配套武功秘籍
+
+SpringBoot开发的 minio 上传接口
+
+```http
+https://github.com/mrchicn/minio.git
+```
+
+配合 PostMan 进行测试如图：
+
+
+
+![](src/main/resources/image/minio/idea1.png)
+
+![idea2](src/main/resources/image/minio/idea2.png)
+
+![postman1](src/main/resources/image/minio/postman1.png)
+
+
+
+![minio_web](src/main/resources/image/minio/minio_web.png)
